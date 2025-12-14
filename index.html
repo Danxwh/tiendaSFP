@@ -1,32 +1,21 @@
 <!DOCTYPE html>
-<html lang="es">
 <head>
-<meta charset="UTF-8">
 <title>Raíces de San Felipe</title>
 </head>
 
 <body style="margin:0;font-family:'Times New Roman',serif;background:#f2f6ff;">
-
-<!-- HEADER -->
 <div style="background:linear-gradient(135deg,#1e3fa9,#4a6cf7);color:white;padding:50px 20px;text-align:center;">
 <h1 style="margin:0;font-size:42px;">Raíces de San Felipe</h1>
 <p style="font-size:18px;max-width:850px;margin:15px auto;">Tienda virtual simulada que promueve productos culturales, agrícolas y artesanales de San Felipe del Progreso, Estado de México.</p>
 </div>
 
-<!-- CONTENEDOR -->
 <div style="max-width:1200px;margin:0 auto;padding:40px 20px;">
 
-<!-- FUNCIÓN JS -->
 <script>
 function comprar(nombre,precio){
-alert('Producto agregado al carrito (simulado): '+nombre+' - $'+precio);
+alert('Producto agregado al carrito!: '+nombre+' - $'+precio);
 }
 </script>
-
-<!-- PLANTILLA TARJETA -->
-<!-- Secciones con 10 productos cada una -->
-
-<!-- GASTRONOMÍA -->
 <h2 style="color:#1e3fa9;">🍽️ Gastronomía Tradicional</h2>
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:25px;margin-bottom:60px;">
 
@@ -41,10 +30,257 @@ alert('Producto agregado al carrito (simulado): '+nombre+' - $'+precio);
 <div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);"><img src="https://via.placeholder.com/300x180"><div style="padding:18px;"><b>Quelites</b><br><small>Producto silvestre.</small><br><b>$14</b><br><button onclick="comprar('Quelites',14)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button></div></div>
 <div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);"><img src="https://via.placeholder.com/300x180"><div style="padding:18px;"><b>Caldo de hongos</b><br><small>Temporada.</small><br><b>$28</b><br><button onclick="comprar('Caldo de hongos',28)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button></div></div>
 </div>
+<h2 style="color:#1e3fa9;">🧵 Artesanías Mazahuas</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:25px;margin-bottom:60px;">
 
-<!-- NOTA ESCOLAR -->
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
+<img src="https://via.placeholder.com/300x180">
+<div style="padding:18px;">
+<b>Muñeca mazahua</b><br>
+<small>Elaborada a mano.</small><br>
+<b>$180</b><br>
+<button onclick="comprar('Muñeca mazahua',180)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button>
+</div></div>
+
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
+<img src="https://via.placeholder.com/300x180">
+<div style="padding:18px;">
+<b>Bordado floral</b><br>
+<small>Diseño tradicional.</small><br>
+<b>$250</b><br>
+<button onclick="comprar('Bordado floral',250)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button>
+</div></div>
+
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
+<img src="https://via.placeholder.com/300x180">
+<div style="padding:18px;">
+<b>Rebozo artesanal</b><br>
+<small>Tejido tradicional.</small><br>
+<b>$420</b><br>
+<button onclick="comprar('Rebozo artesanal',420)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button>
+</div></div>
+
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
+<img src="https://via.placeholder.com/300x180">
+<div style="padding:18px;">
+<b>Bolsa tejida</b><br>
+<small>Uso cotidiano.</small><br>
+<b>$200</b><br>
+<button onclick="comprar('Bolsa tejida',200)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button>
+</div></div>
+
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
+<img src="https://via.placeholder.com/300x180">
+<div style="padding:18px;">
+<b>Servilleta bordada</b><br>
+<small>Trabajo artesanal.</small><br>
+<b>$90</b><br>
+<button onclick="comprar('Servilleta bordada',90)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button>
+</div></div>
+
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
+<img src="https://via.placeholder.com/300x180">
+<div style="padding:18px;">
+<b>Tapete artesanal</b><br>
+<small>Diseño regional.</small><br>
+<b>$300</b><br>
+<button onclick="comprar('Tapete artesanal',300)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button>
+</div></div>
+
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
+<img src="https://via.placeholder.com/300x180">
+<div style="padding:18px;">
+<b>Cinturón tejido</b><br>
+<small>Uso tradicional.</small><br>
+<b>$120</b><br>
+<button onclick="comprar('Cinturón tejido',120)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button>
+</div></div>
+
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
+<img src="https://via.placeholder.com/300x180">
+<div style="padding:18px;">
+<b>Mantel bordado</b><br>
+<small>Uso ceremonial.</small><br>
+<b>$350</b><br>
+<button onclick="comprar('Mantel bordado',350)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button>
+</div></div>
+
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
+<img src="https://via.placeholder.com/300x180">
+<div style="padding:18px;">
+<b>Accesorios textiles</b><br>
+<small>Producción local.</small><br>
+<b>$70</b><br>
+<button onclick="comprar('Accesorios textiles',70)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button>
+</div></div>
+
+</div>
+
+<h2 style="color:#1e3fa9;">👗 Vestimenta Tradicional</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:25px;margin-bottom:60px;">
+
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
+<img src="https://via.placeholder.com/300x180">
+<div style="padding:18px;">
+<b>Blusa mazahua</b><br>
+<small>Bordado simbólico.</small><br>
+<b>$450</b><br>
+<button onclick="comprar('Blusa mazahua',450)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button>
+</div></div>
+
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
+<img src="https://via.placeholder.com/300x180">
+<div style="padding:18px;">
+<b>Falda tradicional</b><br>
+<small>Uso cotidiano.</small><br>
+<b>$380</b><br>
+<button onclick="comprar('Falda tradicional',380)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button>
+</div></div>
+
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
+<img src="https://via.placeholder.com/300x180">
+<div style="padding:18px;">
+<b>Rebozo azul</b><br>
+<small>Identidad cultural.</small><br>
+<b>$520</b><br>
+<button onclick="comprar('Rebozo azul',520)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button>
+</div></div>
+
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
+<img src="https://via.placeholder.com/300x180">
+<div style="padding:18px;">
+<b>Camisa de manta</b><br>
+<small>Material natural.</small><br>
+<b>$260</b><br>
+<button onclick="comprar('Camisa de manta',260)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button>
+</div></div>
+
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
+<img src="https://via.placeholder.com/300x180">
+<div style="padding:18px;">
+<b>Faja tejida</b><br>
+<small>Uso tradicional.</small><br>
+<b>$150</b><br>
+<button onclick="comprar('Faja tejida',150)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button>
+</div></div>
+
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
+<img src="https://via.placeholder.com/300x180">
+<div style="padding:18px;">
+<b>Chal artesanal</b><br>
+<small>Protección y abrigo.</small><br>
+<b>$300</b><br>
+<button onclick="comprar('Chal artesanal',300)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button>
+</div></div>
+
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
+<img src="https://via.placeholder.com/300x180">
+<div style="padding:18px;">
+<b>Traje ceremonial</b><br>
+<small>Eventos culturales.</small><br>
+<b>$800</b><br>
+<button onclick="comprar('Traje ceremonial',800)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button>
+</div></div>
+
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
+<img src="https://via.placeholder.com/300x180">
+<div style="padding:18px;">
+<b>Delantal bordado</b><br>
+<small>Trabajo artesanal.</small><br>
+<b>$220</b><br>
+<button onclick="comprar('Delantal bordado',220)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button>
+</div></div>
+
+  </div>
+  
+  <h2 style="color:#1e3fa9;">🌽 Agricultura Local</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:25px;margin-bottom:60px;">
+
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
+<img src="https://via.placeholder.com/300x180">
+<div style="padding:18px;">
+<b>Maíz criollo</b><br>
+<small>Base alimentaria.</small><br>
+<b>$12</b><br>
+<button onclick="comprar('Maíz criollo',12)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button>
+</div></div>
+
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
+<img src="https://via.placeholder.com/300x180">
+<div style="padding:18px;">
+<b>Frijol</b><br>
+<small>Cultivo regional.</small><br>
+<b>$18</b><br>
+<button onclick="comprar('Frijol',18)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button>
+</div></div>
+
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
+<img src="https://via.placeholder.com/300x180">
+<div style="padding:18px;">
+<b>Calabaza</b><br>
+<small>Producción local.</small><br>
+<b>$15</b><br>
+<button onclick="comprar('Calabaza',15)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button>
+</div></div>
+
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
+<img src="https://via.placeholder.com/300x180">
+<div style="padding:18px;">
+<b>Papa</b><br>
+<small>Siembra comunitaria.</small><br>
+<b>$14</b><br>
+<button onclick="comprar('Papa',14)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button>
+</div></div>
+
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
+<img src="https://via.placeholder.com/300x180">
+<div style="padding:18px;">
+<b>Zanahoria</b><br>
+<small>Producción local.</small><br>
+<b>$10</b><br>
+<button onclick="comprar('Zanahoria',10)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button>
+</div></div>
+
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
+<img src="https://via.placeholder.com/300x180">
+<div style="padding:18px;">
+<b>Avena</b><br>
+<small>Cultivo de temporal.</small><br>
+<b>$16</b><br>
+<button onclick="comprar('Avena',16)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button>
+</div></div>
+
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
+<img src="https://via.placeholder.com/300x180">
+<div style="padding:18px;">
+<b>Trigo</b><br>
+<small>Producción regional.</small><br>
+<b>$17</b><br>
+<button onclick="comprar('Trigo',17)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button>
+</div></div>
+
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
+<img src="https://via.placeholder.com/300x180">
+<div style="padding:18px;">
+<b>Haba verde</b><br>
+<small>Consumo local.</small><br>
+<b>$13</b><br>
+<button onclick="comprar('Haba verde',13)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button>
+</div></div>
+
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
+<img src="https://via.placeholder.com/300x180">
+<div style="padding:18px;">
+<b>Hortalizas mixtas</b><br>
+<small>Mercado local.</small><br>
+<b>$20</b><br>
+<button onclick="comprar('Hortalizas mixtas',20)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button>
+</div></div>
+
+</div>
+
 <div style="background:#e8efff;padding:20px;border-radius:15px;">
-<b>Nota académica:</b> Todos los precios y funciones de compra son simulados. El proyecto es únicamente demostrativo y no realiza transacciones reales.
+<b>Advertencia:</b> Todos los precios y funciones de compra son simulados. El proyecto es únicamente demostrativo y no realiza transacciones reales.
 </div>
 
 </div>
