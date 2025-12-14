@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Raíces de San Felipe</title>
+</head>
+
+<!--
+PROYECTO ESCOLAR
+Interfaz web cultural
+San Felipe del Progreso, Estado de México
+HTML manual + estilos inline
+-->
+
+<body style="margin:0; font-family:'Times New Roman', serif; background-color:#f4f8ff;">
+
+<!-- ENCABEZADO -->
+<div style="background-color:#1e3fa9; color:white; padding:20px; text-align:center;">
+    <h1 style="margin:0;">Raíces de San Felipe</h1>
+    <p>Tradición, cultura y productos de San Felipe del Progreso</p>
+</div>
+
+<!-- MENÚ -->
+<div style="display:flex; justify-content:center; gap:15px; padding:15px; background-color:#e0eaff;">
+    <button onclick="mostrar('gastronomia')">Gastronomía</button>
+    <button onclick="mostrar('artesanias')">Artesanías</button>
+    <button onclick="mostrar('vestimenta')">Vestimenta</button>
+    <button onclick="mostrar('agricultura')">Agricultura</button>
+</div>
+
+<!-- CONTENIDO -->
+<div style="padding:30px;">
+
+    <div id="gastronomia">
+        <h2 style="color:#1e3fa9;">Gastronomía</h2>
+        <p>Tamales, atole y alimentos tradicionales de la región mazahua.</p>
+        <img src="https://via.placeholder.com/400x200">
+    </div>
+
+    <div id="artesanias" style="display:none;">
+        <h2 style="color:#1e3fa9;">Artesanías</h2>
+        <p>Bordados mazahuas y muñecas hechas a mano.</p>
+        <img src="https://via.placeholder.com/400x200">
+    </div>
+
+    <div id="vestimenta" style="display:none;">
+        <h2 style="color:#1e3fa9;">Vestimenta</h2>
+        <p>Blusas bordadas y rebozos tradicionales.</p>
+        <img src="https://via.placeholder.com/400x200">
+    </div>
+
+    <div id="agricultura" style="display:none;">
+        <h2 style="color:#1e3fa9;">Agricultura</h2>
+        <p>Maíz criollo, frijol y productos del campo.</p>
+        <img src="https://via.placeholder.com/400x200">
+    </div>
+
+</div>
+
+<script>
+function mostrar(id){
+    document.getElementById('gastronomia').style.display='none';
+    document.getElementById('artesanias').style.display='none';
+    document.getElementById('vestimenta').style.display='none';
+    document.getElementById('agricultura').style.display='none';
+    document.getElementById(id).style.display='block';
+}
+</script>
+
+</body>
+  </html>
+  
