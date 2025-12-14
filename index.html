@@ -76,7 +76,11 @@ Cancelar
 
 </div>
   </div>
-  
+  .img {
+  width: 300px;     
+  height: auto;     
+}
+
 </head>
 
 <body style="margin:0;font-family:'Times New Roman',serif;background:#f2f6ff;">
@@ -96,28 +100,28 @@ alert('Producto agregado al carrito!: '+nombre+' - $'+precio);
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:25px;margin-bottom:60px;">
 
 <div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
-<img src="Tamales.jpg">
+<img src="imagenes/tamale.jpg" class="img">
   <div style="padding:18px;">
 <b>Tamales de ceniza</b><br>
 <small>Receta tradicional.</small><br>
 <b>$25</b><br>
 <button onclick="comprar('Tamales de ceniza',25)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button>
 </div></div>
-<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);"><img src="imagenes/atole.jpg"><div style="padding:18px;"><b>Atole de maíz</b><br><small>Bebida caliente.</small><br><b>$15</b><br><button onclick="comprar('Atole de maíz',15)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button></div></div>
-<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);"><img src="imagenes/gorditas.jpg"><div style="padding:18px;"><b>Gorditas</b><br><small>Rellenas de guisado.</small><br><b>$20</b><br><button onclick="comprar('Gorditas',20)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button></div></div>
-<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);"><img src="imagenes/pan.jpg"><div style="padding:18px;"><b>Pan artesanal</b><br><small>Horneado local.</small><br><b>$18</b><br><button onclick="comprar('Pan artesanal',18)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button></div></div>
-<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);"><img src="imagenes/salsa.jpg"><div style="padding:18px;"><b>Salsa molcajeteada</b><br><small>Receta familiar.</small><br><b>$30</b><br><button onclick="comprar('Salsa molcajeteada',30)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button></div></div>
-<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);"><img src="imagenes/frijoles.jpg"><div style="padding:18px;"><b>Frijoles de olla</b><br><small>Cocción tradicional.</small><br><b>$22</b><br><button onclick="comprar('Frijoles de olla',22)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button></div></div>
-<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);"><img src="imagenes/dulces.jpg"><div style="padding:18px;"><b>Dulces típicos</b><br><small>Sabores regionales.</small><br><b>$12</b><br><button onclick="comprar('Dulces típicos',12)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button></div></div>
-<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);"><img src="imagenes/tortillas.jpg"><div style="padding:18px;"><b>Tortillas a mano</b><br><small>Maíz criollo.</small><br><b>$10</b><br><button onclick="comprar('Tortillas a mano',10)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button></div></div>
-<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);"><img src="imagenes/quelites.jpg"><div style="padding:18px;"><b>Quelites</b><br><small>Producto silvestre.</small><br><b>$14</b><br><button onclick="comprar('Quelites',14)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button></div></div>
-<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);"><img src="imagenes/hongos.jpg"><div style="padding:18px;"><b>Caldo de hongos</b><br><small>Temporada.</small><br><b>$28</b><br><button onclick="comprar('Caldo de hongos',28)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button></div></div>
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);"><img src="imagenes/atole.jpg" class="img"><div style="padding:18px;"><b>Atole de maíz</b><br><small>Bebida caliente.</small><br><b>$15</b><br><button onclick="comprar('Atole de maíz',15)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button></div></div>
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);"><img src="imagenes/gorditas.jpg" class="img"><div style="padding:18px;"><b>Gorditas</b><br><small>Rellenas de guisado.</small><br><b>$20</b><br><button onclick="comprar('Gorditas',20)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button></div></div>
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);"><img src="imagenes/pan.jpg" class="img"><div style="padding:18px;"><b>Pan artesanal</b><br><small>Horneado local.</small><br><b>$18</b><br><button onclick="comprar('Pan artesanal',18)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button></div></div>
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);"><img src="imagenes/salsa.jpg" class="img"><div style="padding:18px;"><b>Salsa molcajeteada</b><br><small>Receta familiar.</small><br><b>$30</b><br><button onclick="comprar('Salsa molcajeteada',30)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button></div></div>
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);"><img src="imagenes/frijoles.jpg" class="img"><div style="padding:18px;"><b>Frijoles de olla</b><br><small>Cocción tradicional.</small><br><b>$22</b><br><button onclick="comprar('Frijoles de olla',22)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button></div></div>
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);"><img src="imagenes/dulces.jpg" class="img"><div style="padding:18px;"><b>Dulces típicos</b><br><small>Sabores regionales.</small><br><b>$12</b><br><button onclick="comprar('Dulces típicos',12)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button></div></div>
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);"><img src="imagenes/tortillas.jpg" class="img"><div style="padding:18px;"><b>Tortillas a mano</b><br><small>Maíz criollo.</small><br><b>$10</b><br><button onclick="comprar('Tortillas a mano',10)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button></div></div>
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);"><img src="imagenes/quelites.jpg" class="img"><div style="padding:18px;"><b>Quelites</b><br><small>Producto silvestre.</small><br><b>$14</b><br><button onclick="comprar('Quelites',14)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button></div></div>
+<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);"><img src="imagenes/hongos.jpg" class="img"><div style="padding:18px;"><b>Caldo de hongos</b><br><small>Temporada.</small><br><b>$28</b><br><button onclick="comprar('Caldo de hongos',28)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button></div></div>
 </div>
 <h2 style="color:#1e3fa9;">🧵 Artesanías Mazahuas</h2>
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:25px;margin-bottom:60px;">
 
 <div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
-<img src="imagenes/muñeca.jpg">
+<img src="imagenes/muñeca.jpg" class="img">
 <div style="padding:18px;">
 <b>Muñeca mazahua</b><br>
 <small>Elaborada a mano.</small><br>
@@ -126,7 +130,7 @@ alert('Producto agregado al carrito!: '+nombre+' - $'+precio);
 </div></div>
 
 <div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
-<img src="imagenes/bordado.jpg">
+<img src="imagenes/bordado.jpg" class="img">
 <div style="padding:18px;">
 <b>Bordado floral</b><br>
 <small>Diseño tradicional.</small><br>
@@ -135,7 +139,7 @@ alert('Producto agregado al carrito!: '+nombre+' - $'+precio);
 </div></div>
 
 <div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
-<img src="imagenes/chal.jpg">
+<img src="imagenes/chal.jpg" class="img">
 <div style="padding:18px;">
 <b>Rebozo artesanal</b><br>
 <small>Tejido tradicional.</small><br>
@@ -144,7 +148,7 @@ alert('Producto agregado al carrito!: '+nombre+' - $'+precio);
 </div></div>
 
 <div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
-<img src="imagenes/bolso.jpg">
+<img src="imagenes/bolso.jpg" class="img">
 <div style="padding:18px;">
 <b>Bolsa tejida</b><br>
 <small>Uso cotidiano.</small><br>
@@ -153,7 +157,7 @@ alert('Producto agregado al carrito!: '+nombre+' - $'+precio);
 </div></div>
 
 <div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
-<img src="imagenes/servilleta.jpeg">
+<img src="imagenes/servilleta.jpeg" class="img">
 <div style="padding:18px;">
 <b>Servilleta bordada</b><br>
 <small>Trabajo artesanal.</small><br>
@@ -162,7 +166,7 @@ alert('Producto agregado al carrito!: '+nombre+' - $'+precio);
 </div></div>
 
 <div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
-<img src="imagenes/tapete.jpg">
+<img src="imagenes/tapete.jpg" class="img">
 <div style="padding:18px;">
 <b>Tapete artesanal</b><br>
 <small>Diseño regional.</small><br>
@@ -171,7 +175,7 @@ alert('Producto agregado al carrito!: '+nombre+' - $'+precio);
 </div></div>
 
 <div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
-<img src="imagenes/cinturon.jpg">
+<img src="imagenes/cinturon.jpg" class="img">
 <div style="padding:18px;">
 <b>Cinturón tejido</b><br>
 <small>Uso tradicional.</small><br>
@@ -180,16 +184,7 @@ alert('Producto agregado al carrito!: '+nombre+' - $'+precio);
 </div></div>
 
 <div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
-<img src="imagenes/mantel.jpg">
-<div style="padding:18px;">
-<b>Mantel bordado</b><br>
-<small>Uso ceremonial.</small><br>
-<b>$350</b><br>
-<button onclick="comprar('Mantel bordado',350)" style="margin-top:10px;background:#1e3fa9;color:white;border:none;padding:8px 14px;border-radius:8px;">Comprar</button>
-</div></div>
-
-<div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
-<img src="imagenes/accesorios.jpg">
+<img src="imagenes/accesorios.jpg" class="img">
 <div style="padding:18px;">
 <b>Accesorios textiles</b><br>
 <small>Producción local.</small><br>
@@ -203,7 +198,7 @@ alert('Producto agregado al carrito!: '+nombre+' - $'+precio);
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:25px;margin-bottom:60px;">
 
 <div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
-<img src="imagenes/blusa.jpg">
+<img src="imagenes/blusa.jpg" class="img">
 <div style="padding:18px;">
 <b>Blusa mazahua</b><br>
 <small>Bordado simbólico.</small><br>
@@ -212,7 +207,7 @@ alert('Producto agregado al carrito!: '+nombre+' - $'+precio);
 </div></div>
 
 <div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
-<img src="imagenes/falda.jpg">
+<img src="imagenes/falda.jpg" class="img">
 <div style="padding:18px;">
 <b>Falda tradicional</b><br>
 <small>Uso cotidiano.</small><br>
@@ -221,7 +216,7 @@ alert('Producto agregado al carrito!: '+nombre+' - $'+precio);
 </div></div>
 
 <div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
-<img src="imagenes/rebozo.jpg">
+<img src="imagenes/rebozo.jpg" class="img">
 <div style="padding:18px;">
 <b>Rebozo azul</b><br>
 <small>Identidad cultural.</small><br>
@@ -230,7 +225,7 @@ alert('Producto agregado al carrito!: '+nombre+' - $'+precio);
 </div></div>
 
 <div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
-<img src="imagenes/manta.jpg">
+<img src="imagenes/camisa.jpg" class="img">
 <div style="padding:18px;">
 <b>Camisa de manta</b><br>
 <small>Material natural.</small><br>
@@ -239,7 +234,7 @@ alert('Producto agregado al carrito!: '+nombre+' - $'+precio);
 </div></div>
 
 <div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
-<img src="imagenes/faja.jpg">
+<img src="imagenes/faja.jpg" class="img">
 <div style="padding:18px;">
 <b>Faja tejida</b><br>
 <small>Uso tradicional.</small><br>
@@ -248,7 +243,7 @@ alert('Producto agregado al carrito!: '+nombre+' - $'+precio);
 </div></div>
 
 <div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
-<img src="imagenes/chal.jpg">
+<img src="imagenes/chal.jpg" class="img">
 <div style="padding:18px;">
 <b>Chal artesanal</b><br>
 <small>Protección y abrigo.</small><br>
@@ -257,7 +252,7 @@ alert('Producto agregado al carrito!: '+nombre+' - $'+precio);
 </div></div>
 
 <div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
-<img src="imagenes/ritual.jpg">
+<img src="imagenes/ritual.jpg" class="img">
 <div style="padding:18px;">
 <b>Traje ceremonial</b><br>
 <small>Eventos culturales.</small><br>
@@ -266,7 +261,7 @@ alert('Producto agregado al carrito!: '+nombre+' - $'+precio);
 </div></div>
 
 <div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
-<img src="imagenes/delantal.jpg">
+<img src="imagenes/delantal.jpg" class="img">
 <div style="padding:18px;">
 <b>Delantal bordado</b><br>
 <small>Trabajo artesanal.</small><br>
@@ -280,7 +275,7 @@ alert('Producto agregado al carrito!: '+nombre+' - $'+precio);
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:25px;margin-bottom:60px;">
 
 <div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
-<img src="imagenes/maiz.jpg">
+<img src="imagenes/maiz.jpg" class="img">
 <div style="padding:18px;">
 <b>Maíz criollo</b><br>
 <small>Base alimentaria.</small><br>
@@ -289,7 +284,7 @@ alert('Producto agregado al carrito!: '+nombre+' - $'+precio);
 </div></div>
 
 <div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
-<img src="imagenes/frijol.jpg">
+<img src="imagenes/frijol.jpg" class="img">
 <div style="padding:18px;">
 <b>Frijol</b><br>
 <small>Cultivo regional.</small><br>
@@ -298,7 +293,7 @@ alert('Producto agregado al carrito!: '+nombre+' - $'+precio);
 </div></div>
 
 <div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
-<img src="imagenes/calabaza.jpg">
+<img src="imagenes/calabazas.jpg" class="img">
 <div style="padding:18px;">
 <b>Calabaza</b><br>
 <small>Producción local.</small><br>
@@ -307,7 +302,7 @@ alert('Producto agregado al carrito!: '+nombre+' - $'+precio);
 </div></div>
 
 <div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
-<img src="imagenes/papa.jpg">
+<img src="imagenes/papa.jpg" class="img">
 <div style="padding:18px;">
 <b>Papa</b><br>
 <small>Siembra comunitaria.</small><br>
@@ -316,7 +311,7 @@ alert('Producto agregado al carrito!: '+nombre+' - $'+precio);
 </div></div>
 
 <div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
-<img src="imagenes/zanahoria.jpg">
+<img src="imagenes/zanahoria.jpg" class="img">
 <div style="padding:18px;">
 <b>Zanahoria</b><br>
 <small>Producción local.</small><br>
@@ -325,7 +320,7 @@ alert('Producto agregado al carrito!: '+nombre+' - $'+precio);
 </div></div>
 
 <div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
-<img src="imagenes/avena.jpg">
+<img src="imagenes/avena.jpg" class="img">
 <div style="padding:18px;">
 <b>Avena</b><br>
 <small>Cultivo de temporal.</small><br>
@@ -334,7 +329,7 @@ alert('Producto agregado al carrito!: '+nombre+' - $'+precio);
 </div></div>
 
 <div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
-<img src="imagenes/trigo.jpg">
+<img src="imagenes/trigo.jpg" class="img">
 <div style="padding:18px;">
 <b>Trigo</b><br>
 <small>Producción regional.</small><br>
@@ -343,7 +338,7 @@ alert('Producto agregado al carrito!: '+nombre+' - $'+precio);
 </div></div>
 
 <div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
-<img src="imagenes/habas.jpg">
+<img src="imagenes/habas.jpg" class="img">
 <div style="padding:18px;">
 <b>Haba verde</b><br>
 <small>Consumo local.</small><br>
@@ -352,7 +347,7 @@ alert('Producto agregado al carrito!: '+nombre+' - $'+precio);
 </div></div>
 
 <div style="background:white;border-radius:18px;overflow:hidden;box-shadow:0 10px 22px rgba(0,0,0,0.15);">
-<img src="imagenes/hortalizas.jpg">
+<img src="imagenes/hortalizas.jpg" class="img">
 <div style="padding:18px;">
 <b>Hortalizas mixtas</b><br>
 <small>Mercado local.</small><br>
@@ -361,24 +356,11 @@ alert('Producto agregado al carrito!: '+nombre+' - $'+precio);
 </div></div>
 
 </div>
-<!-- FOOTER -->
-<div style="
-background:#1e3fa9;
-color:white;
-padding:40px 20px;
-margin-top:80px;
-font-family:'Times New Roman',serif;
-">
 
-<div style="
-max-width:1200px;
-margin:0 auto;
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:30px;
-">
+<div style="background:#1e3fa9; color:white; padding:40px 20px; margin-top:80px; font-family:'Times New Roman',serif;">
 
-<!-- INFO DEL SITIO -->
+<div style="max-width:1200px; margin:0 auto; display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:30px;">
+
 <div>
 <h3 style="margin-top:0;">Raíces de San Felipe</h3>
 <p style="font-size:14px;line-height:1.6;">
@@ -387,7 +369,6 @@ agrícola y gastronómica de San Felipe del Progreso, Estado de México.
 </p>
 </div>
 
-<!-- CONTACTO -->
 <div>
 <h3 style="margin-top:0;">Contacto</h3>
 <p style="font-size:14px;">
@@ -416,7 +397,7 @@ Institución educativa: <b>CECYTEM SFP</b><br>
 </div>
   
 <div style="background:#e8efff;padding:20px;border-radius:15px;">
-<b>Advertencia:</b> Todos los precios y funciones de compra son simulados. El proyecto es únicamente demostrativo y no realiza transacciones reales.
+<b>By: Diego López Guzmán</b>
    
 </div>
 
